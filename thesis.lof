@@ -7,10 +7,13 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Cumulative Weight \cite {the-tangle}\relax }}{6}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Height, Depth and Score \cite {the-tangle}\relax }}{7}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Simulation with $\gamma =5$ and $d=1$ \cite {the-tangle-part-1}\relax }}{8}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Lazy Tip \cite {the-tangle-part-1}\relax }}{8}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Simulation with $\gamma =5$ and $d=1$ \cite {the-tangle-part-3}\relax }}{8}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Lazy Tip \cite {the-tangle-part-3}\relax }}{8}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Confirmation Confidence and Cumulative Weight Growth \cite {the-tangle}\relax }}{10}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Graph Representation of the Confirmation Confidence\relax }}{10}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Double Spend Attack \cite {the-tangle-part-5}\relax }}{11}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Large Weight Attack \cite {the-tangle}\relax }}{12}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Parasite Chain Attack \cite {the-tangle}\relax }}{13}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

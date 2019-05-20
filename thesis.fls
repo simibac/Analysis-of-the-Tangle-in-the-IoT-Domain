@@ -260,14 +260,23 @@ INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/imag
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence-tangle.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/ae/aer12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/ae/aebx12.tfm
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/evaluation.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/evaluation.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/double-spend.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/double-spend.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/double-spend.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/large-weight-attack.pdf
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/large-weight-attack.pdf
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/large-weight-attack.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/ae/aebx12.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/parasite-chain.pdf
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/parasite-chain.pdf
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/parasite-chain.pdf
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/evaluation.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/evaluation.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/summary.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/summary.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/bibliography.tex
@@ -275,10 +284,10 @@ INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chap
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ae/t1aett.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ae/t1aett.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/ae/aett12.tfm
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/abbreviations.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/abbreviations.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/ae/aett12.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/abbreviations.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/abbreviations.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/glossary.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/glossary.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.lof
@@ -296,16 +305,22 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb

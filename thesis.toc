@@ -15,13 +15,15 @@
 \contentsline {section}{\numberline {3.3}Tip Selection}{7}
 \contentsline {section}{\numberline {3.4}Transaction Validation}{9}
 \contentsline {section}{\numberline {3.5}Attacks}{10}
-\contentsline {subsection}{\numberline {3.5.1}}{10}
-\contentsline {chapter}{\numberline {4}Evaluation}{11}
-\contentsline {chapter}{\numberline {5}Summary and Conclusions}{13}
-\contentsline {chapter}{Bibliography}{15}
-\contentsline {chapter}{Abbreviations}{17}
-\contentsline {chapter}{Glossary}{19}
-\contentsline {chapter}{List of Figures}{19}
-\contentsline {chapter}{List of Tables}{21}
-\contentsline {chapter}{\numberline {A}Installation Guidelines}{25}
-\contentsline {chapter}{\numberline {B}Contents of the CD}{27}
+\contentsline {subsection}{\numberline {3.5.1}Double Spend}{11}
+\contentsline {subsection}{\numberline {3.5.2}Large Weight Attack}{11}
+\contentsline {subsection}{\numberline {3.5.3}Parasite Chain Attack}{12}
+\contentsline {chapter}{\numberline {4}Evaluation}{15}
+\contentsline {chapter}{\numberline {5}Summary and Conclusions}{17}
+\contentsline {chapter}{Bibliography}{19}
+\contentsline {chapter}{Abbreviations}{21}
+\contentsline {chapter}{Glossary}{23}
+\contentsline {chapter}{List of Figures}{23}
+\contentsline {chapter}{List of Tables}{25}
+\contentsline {chapter}{\numberline {A}Installation Guidelines}{29}
+\contentsline {chapter}{\numberline {B}Contents of the CD}{31}
