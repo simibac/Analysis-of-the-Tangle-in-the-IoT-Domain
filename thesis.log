@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.19)  20 MAY 2019 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.19)  22 MAY 2019 11:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,27 +484,39 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 Package caption Info: picinpar package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
-) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.aux)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldlasy=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.aux
+
+LaTeX Warning: Label `label' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
  (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count133
@@ -561,281 +573,361 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 52.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 53.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 <images/uzh_logo_e.pdf, id=1, 181.78688pt x 56.90552pt>
 File: images/uzh_logo_e.pdf Graphic file (type pdf)
 <use images/uzh_logo_e.pdf>
-Package pdftex.def Info: images/uzh_logo_e.pdf  used on input line 52.
+Package pdftex.def Info: images/uzh_logo_e.pdf  used on input line 53.
 (pdftex.def)             Requested size: 193.47882pt x 60.567pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 52.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 53.
 <images/ifi_logo.pdf, id=2, 117.95413pt x 135.26477pt>
 File: images/ifi_logo.pdf Graphic file (type pdf)
 <use images/ifi_logo.pdf>
-Package pdftex.def Info: images/ifi_logo.pdf  used on input line 52.
+Package pdftex.def Info: images/ifi_logo.pdf  used on input line 53.
 (pdftex.def)             Requested size: 39.83368pt x 45.67981pt.
 
-Overfull \hbox (11.44643pt too wide) in paragraph at lines 52--52
+Overfull \hbox (11.44643pt too wide) in paragraph at lines 53--53
 [] []  [] 
  []
 
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/uzh_logo_e.pdf> </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/ifi_logo.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+LaTeX Font Info:    Try loading font information for U+msa on input line 56.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 56.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 55.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 56.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in alignment at lines 55--55
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 56.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 56.
+
+Underfull \hbox (badness 10000) in alignment at lines 56--56
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
  []
 
-[2] (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/abstract.tex) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/acknowledgments.tex [1
+[2] (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/abstract.tex) [1
 
 ] [2
 
-]) [3] [4
-
-] (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.toc [5])
+] (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.toc [3])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [6] (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/introduction.tex
+ [4] (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/introduction.tex
 Chapter 1.
-) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/relatedwork.tex [1
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 13.
+LaTeX Font Info:    No file TS1aer.fd. on input line 13.
+
+LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 13.
+
+[1
 
 
-] [2
-
-]
+]) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/relatedwork.tex [2]
 Chapter 2.
-) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/main.tex [3] [4
+) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/index.tex [3
+
+] [4
 
 ]
 Chapter 3.
-[5]
-<images/cummulative_weight.pdf, id=63, 426.90788pt x 340.76149pt>
+(/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/network-partition.tex) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/transactions.tex [5]
+<images/cummulative_weight.pdf, id=57, 426.90788pt x 340.76149pt>
 File: images/cummulative_weight.pdf Graphic file (type pdf)
 <use images/cummulative_weight.pdf>
-Package pdftex.def Info: images/cummulative_weight.pdf  used on input line 21.
+Package pdftex.def Info: images/cummulative_weight.pdf  used on input line 16.
 (pdftex.def)             Requested size: 284.52756pt x 227.1079pt.
-<images/height-depth-score.pdf, id=64, 342.21985pt x 143.02324pt>
+<images/height-depth-score.pdf, id=58, 342.21985pt x 143.02324pt>
 File: images/height-depth-score.pdf Graphic file (type pdf)
 <use images/height-depth-score.pdf>
-Package pdftex.def Info: images/height-depth-score.pdf  used on input line 30.
+Package pdftex.def Info: images/height-depth-score.pdf  used on input line 25.
 (pdftex.def)             Requested size: 341.43306pt x 142.69333pt.
- [6 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/cummulative_weight.pdf>]
-<images/simulation.png, id=93, 1415.2875pt x 428.60126pt>
+ [6 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/cummulative_weight.pdf>]) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/tip-selection.tex
+<images/simulation.png, id=87, 1415.2875pt x 428.60126pt>
 File: images/simulation.png Graphic file (type png)
 <use images/simulation.png>
-Package pdftex.def Info: images/simulation.png  used on input line 50.
+Package pdftex.def Info: images/simulation.png  used on input line 14.
 (pdftex.def)             Requested size: 455.24408pt x 137.86151pt.
 
 Underfull \vbox (badness 1496) has occurred while \output is active []
 
  [7 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/height-depth-score.pdf>]
-<images/lazy-tip.png, id=118, 1194.4625pt x 541.02126pt>
+<images/lazy-tip.png, id=114, 1194.4625pt x 541.02126pt>
 File: images/lazy-tip.png Graphic file (type png)
 <use images/lazy-tip.png>
-Package pdftex.def Info: images/lazy-tip.png  used on input line 61.
+Package pdftex.def Info: images/lazy-tip.png  used on input line 25.
 (pdftex.def)             Requested size: 455.24408pt x 206.2011pt.
- [8 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/simulation.png> </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/lazy-tip.png (PNG copy)>]
-<images/confirmation-confidence.pdf, id=123, 281.71649pt x 204.78668pt>
+ [8 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/simulation.png> </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/lazy-tip.png (PNG copy)>]) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/transaction-validation.tex
+<images/confirmation-confidence.pdf, id=119, 281.71649pt x 204.78668pt>
 File: images/confirmation-confidence.pdf Graphic file (type pdf)
 <use images/confirmation-confidence.pdf>
-Package pdftex.def Info: images/confirmation-confidence.pdf  used on input line 87.
+Package pdftex.def Info: images/confirmation-confidence.pdf  used on input line 18.
 (pdftex.def)             Requested size: 227.62204pt x 165.47008pt.
  [9]
-<images/confirmation-confidence-tangle.png, id=128, 1406.25375pt x 497.86pt>
+<images/confirmation-confidence-tangle.png, id=124, 1406.25375pt x 497.86pt>
 File: images/confirmation-confidence-tangle.png Graphic file (type png)
 <use images/confirmation-confidence-tangle.png>
-Package pdftex.def Info: images/confirmation-confidence-tangle.png  used on input line 97.
+Package pdftex.def Info: images/confirmation-confidence-tangle.png  used on input line 28.
 (pdftex.def)             Requested size: 455.24408pt x 161.16446pt.
- [10 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence.pdf> </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence-tangle.png>]
-<images/double-spend.png, id=184, 734.745pt x 386.44376pt>
-File: images/double-spend.png Graphic file (type png)
-<use images/double-spend.png>
-Package pdftex.def Info: images/double-spend.png  used on input line 110.
-(pdftex.def)             Requested size: 227.62204pt x 119.71967pt.
-<images/large-weight-attack.pdf, id=185, 447.95906pt x 144.26556pt>
-File: images/large-weight-attack.pdf Graphic file (type pdf)
-<use images/large-weight-attack.pdf>
-Package pdftex.def Info: images/large-weight-attack.pdf  used on input line 132.
-(pdftex.def)             Requested size: 341.43306pt x 109.96214pt.
- [11 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/double-spend.png (PNG copy)>]
-<images/parasite-chain.pdf, id=190, 355.92342pt x 147.4585pt>
-File: images/parasite-chain.pdf Graphic file (type pdf)
-<use images/parasite-chain.pdf>
-Package pdftex.def Info: images/parasite-chain.pdf  used on input line 157.
-(pdftex.def)             Requested size: 341.43306pt x 141.45952pt.
- [12 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/large-weight-attack.pdf>]) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/evaluation.tex [13 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/parasite-chain.pdf>] [14
+) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/coordinator.tex [10 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence.pdf> </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence-tangle.png>]) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/qubic.tex)) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/attack-scenarios/index.tex [11] [12
 
 ]
 Chapter 4.
-) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/summary.tex [15] [16
+<images/double-spend.png, id=186, 734.745pt x 386.44376pt>
+File: images/double-spend.png Graphic file (type png)
+<use images/double-spend.png>
+Package pdftex.def Info: images/double-spend.png  used on input line 10.
+(pdftex.def)             Requested size: 227.62204pt x 119.71967pt.
+[13 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/double-spend.png (PNG copy)>]
+<images/large-weight-attack.pdf, id=191, 447.95906pt x 144.26556pt>
+File: images/large-weight-attack.pdf Graphic file (type pdf)
+<use images/large-weight-attack.pdf>
+Package pdftex.def Info: images/large-weight-attack.pdf  used on input line 32.
+(pdftex.def)             Requested size: 341.43306pt x 109.96214pt.
+ [14 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/large-weight-attack.pdf>]
+<images/parasite-chain.pdf, id=259, 355.92342pt x 147.4585pt>
+File: images/parasite-chain.pdf Graphic file (type pdf)
+<use images/parasite-chain.pdf>
+Package pdftex.def Info: images/parasite-chain.pdf  used on input line 57.
+(pdftex.def)             Requested size: 341.43306pt x 141.45952pt.
+) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/case-studies/index.tex [15 </Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/parasite-chain.pdf>] [16
 
 ]
 Chapter 5.
-) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/bibliography.tex [17] [18
+(/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/case-studies/mobility.tex) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/case-studies/smart-energy.tex)) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/evaluation.tex [17] [18
+
+]
+Chapter 6.
+) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/summary.tex [19] [20
+
+]
+Chapter 7.
+) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/bibliography.tex [21] [22
 
 ]
 LaTeX Font Info:    Try loading font information for T1+aett on input line 4.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-\T1/aett/m/n/12 r1dr6vzfxhev / 2t4uxvsIqk0EUau6g2sw0g / 45eae33637ca92f85dd9f4a3a218e1ec /
- []
-
-
-Underfull \hbox (badness 4556) in paragraph at lines 7--8
-[]\T1/aer/m/n/12 Alon Gal: The Tan-gle: an il-lus-trated in-tro-duc-tion - Part 2: trans-
+Underfull \hbox (badness 5316) in paragraph at lines 5--6
+[]\T1/aer/m/n/12 Alyssa Her-tig: How Will Ethereum Scale?, $\T1/aett/m/n/12 https : / / www . coindesk . com /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
-\T1/aer/m/n/12 ac-tion rates, la-tency, and ran-dom walks, $\T1/aett/m/n/12 https : / / blog . iota . org /
+[]\T1/aer/m/n/12 Jan Ver-meulen: VisaNet - han-dling 100,000 trans-ac-tions
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 7--8
-\T1/aett/m/n/12 the-[]tangle-[]an-[]illustrated-[]introduction-[]f359b8b2ec80$\T1/aer/m/n/12 , 7th of Febru-ary
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+\T1/aer/m/n/12 per minute, $\T1/aett/m/n/12 https : / / mybroadband . co . za / news / security /
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 8--9
-[]\T1/aer/m/n/12 Alon Gal: The Tan-gle: an il-lus-trated in-tro-duc-tion - Part 3: Cu-mu-
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+\T1/aett/m/n/12 190348-[]visanet-[]handling-[]100000-[]transactions-[]per-[]minute . html$\T1/aer/m/n/12 , 17th of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-\T1/aer/m/n/12 la-tive weights and weighted ran-dom walks, $\T1/aett/m/n/12 https : / / blog . iota . org /
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 8--9
-\T1/aett/m/n/12 the-[]tangle-[]an-[]illustrated-[]introduction-[]f359b8b2ec80$\T1/aer/m/n/12 , 14th of Febru-ary
- []
-
-
-Underfull \hbox (badness 6380) in paragraph at lines 9--10
-[]\T1/aer/m/n/12 Alon Gal: The Tan-gle: an il-lus-trated in-tro-duc-tion - Part 4: Ap-
+Underfull \hbox (badness 5105) in paragraph at lines 8--9
+\T1/aett/m/n/12 iota . org / coordinator-[]part-[]1-[]the-[]path-[]to-[]coordicide-[]ee4148a8db08$\T1/aer/m/n/12 , 20th
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\T1/aer/m/n/12 IOTA Foun-da-tion: Co-or-di-na-tor. Part 2: IOTA is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/aer/m/n/12 a DAG, not a Blockchain, $\T1/aett/m/n/12 https : / / blog . iota . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\T1/aett/m/n/12 iota . org / coordinator-[]part-[]3-[]approaches-[]to-[]coordicide-[]583fb82382bc$\T1/aer/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]\T1/aer/m/n/12 IOTA Foun-da-tion: Co-or-di-na-tor. Part 4: An
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/aer/m/n/12 Open Source Co-or-di-na-tor, $\T1/aett/m/n/12 https : / / blog . iota . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/aett/m/n/12 coordinator-[]part-[]4-[]an-[]open-[]source-[]coordinator-[]7d3804931058$\T1/aer/m/n/12 , 20th of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+\T1/aett/m/n/12 r1dr6vzfxhev / 2t4uxvsIqk0EUau6g2sw0g / 45eae33637ca92f85dd9f4a3a218e1ec /
+ []
+
+[23]
+Underfull \hbox (badness 4556) in paragraph at lines 15--16
+[]\T1/aer/m/n/12 Alon Gal: The Tan-gle: an il-lus-trated in-tro-duc-tion - Part 2: trans-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+\T1/aer/m/n/12 ac-tion rates, la-tency, and ran-dom walks, $\T1/aett/m/n/12 https : / / blog . iota . org /
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 15--16
+\T1/aett/m/n/12 the-[]tangle-[]an-[]illustrated-[]introduction-[]f359b8b2ec80$\T1/aer/m/n/12 , 7th of Febru-ary
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 16--17
+[]\T1/aer/m/n/12 Alon Gal: The Tan-gle: an il-lus-trated in-tro-duc-tion - Part 3: Cu-mu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+\T1/aer/m/n/12 la-tive weights and weighted ran-dom walks, $\T1/aett/m/n/12 https : / / blog . iota . org /
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 16--17
+\T1/aett/m/n/12 the-[]tangle-[]an-[]illustrated-[]introduction-[]f359b8b2ec80$\T1/aer/m/n/12 , 14th of Febru-ary
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 17--18
+[]\T1/aer/m/n/12 Alon Gal: The Tan-gle: an il-lus-trated in-tro-duc-tion - Part 4: Ap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 \T1/aer/m/n/12 provers, bal-ances, and double-spends, $\T1/aett/m/n/12 https : / / blog . iota . org /
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 9--10
+Underfull \hbox (badness 4467) in paragraph at lines 17--18
 \T1/aett/m/n/12 the-[]tangle-[]an-[]illustrated-[]introduction-[]f359b8b2ec80$\T1/aer/m/n/12 , 21st of Febru-ary
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 10--11
+Underfull \hbox (badness 3078) in paragraph at lines 18--19
 []\T1/aer/m/n/12 Alon Gal: The Tan-gle: an il-lus-trated in-tro-duc-tion - Part 5: Con-sen-
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 10--11
+Underfull \hbox (badness 1845) in paragraph at lines 18--19
 \T1/aer/m/n/12 sus, con-fir-ma-tion con-fi-dence, and the co-or-di-na-tor, $\T1/aett/m/n/12 https : / / blog . iota . org /
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 10--11
+Underfull \hbox (badness 3439) in paragraph at lines 18--19
 \T1/aett/m/n/12 the-[]tangle-[]an-[]illustrated-[]introduction-[]f359b8b2ec80$\T1/aer/m/n/12 , 28th of Febru-ary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 []\T1/aer/m/n/12 Ben Shaver: A Zero-Math In-tro-duc-tion to Markov Chain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 \T1/aer/m/n/12 Monte Carlo Meth-ods, $\T1/aett/m/n/12 https : / / towardsdatascience . com /
  []
 
 
-Overfull \hbox (27.38316pt too wide) in paragraph at lines 11--12
+Overfull \hbox (27.38316pt too wide) in paragraph at lines 19--20
 \T1/aett/m/n/12 a-[]zero-[]math-[]introduction-[]to-[]markov-[]chain-[]monte-[]carlo-[]methods-[]dcba889e0c50$\T1/aer/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 []\T1/aer/m/n/12 Will Koehrsen: The Pois-son Dis-tri-bu-tion and Pois-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 \T1/aer/m/n/12 son Pro-cess Ex-plained, $\T1/aett/m/n/12 https : / / towardsdatascience . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 \T1/aett/m/n/12 the-[]poisson-[]distribution-[]and-[]poisson-[]process-[]explained-[]4e2cb17d459$\T1/aer/m/n/12 ,
  []
 
-[19]) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/abbreviations.tex [20]) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/glossary.tex
+) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/abbreviations.tex [24]) (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/glossary.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--1
 
  []
 
-[21
+[25
 
-] [22
+] [26
 
-]) [23] [24
+]) [27] [28
 
 ] (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.lof)
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [25] [26
+ [29] [30
 
 ] (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
- (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/appendix.tex [27] [28
+ (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/appendix.tex [31] [32
 
 ]
 Appendix A.
-[29] [30
+[33] [34
 
 ]
 Appendix B.
-) [31] (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.aux) ) 
+) [35] (/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6081 strings out of 492649
- 90404 string characters out of 6129621
- 158193 words of memory out of 5000000
- 9708 multiletter control sequences out of 15000+600000
- 51536 words of font info for 83 fonts, out of 8000000 for 9000
+ 6212 strings out of 492649
+ 94105 string characters out of 6129621
+ 159709 words of memory out of 5000000
+ 9801 multiletter control sequences out of 15000+600000
+ 49185 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,39p,841b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.pdf" (39 pages, 1002264 bytes).
+ 41i,6n,39p,922b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on "/Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.pdf" (41 pages, 1025300 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
+ 436 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

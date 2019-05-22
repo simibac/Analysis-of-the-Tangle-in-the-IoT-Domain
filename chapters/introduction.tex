@@ -1,10 +1,20 @@
 \chapter{Introduction}
 
 \section{Motivation}
+One of the biggest hurdles in distributed ledger technology (DLT) is the scalability issue. Bitcoin handles around 7 transactions per second (TPS), Ethereum 15 TPS \cite{ethereum-scale}, Litecoin 56 TPS and Ripple 1500 TPS \cite{bitcoin-tps}. Higher transaction throughput is achieved with larger block size. This is not a sustainable approach since the data that is stored in every node of the network grows linearly to the networks block size and effectively forcing people to leave the network with less storage and bandwidth capacity. 
 
+In order to compete with Visa's 1600 TPS \cite{visa-tps}, increasing the block size is not enough. The lightning network is one proposal to solve the scalability issue by creating off chain transactions. However, it is not flawless because the funds are locked in payment channels and the transactions to open and close such payment channels are still slow and expensive. Ethereum is working on a solution that works similar to database sharding, where every node is storing only a portion of all the transactions on the network. However, this requires additional mechanisms such that nodes must not trust other shards in order to verify transactions that are stored in other shards.
+
+All the DLTs mentioned previously use a linked list as a core data structure. However, a DLT created by the IOTA foundation uses a directed acyclic graph (DAG) called Tangle. This fundamental difference brings several advantages compared to traditional DLTs. However, there are other hurdles to overcome using a DAG architecture. The arguments for and against a DAG architechture in a DLT is evaluated as part of this Master Basis Module (MBM). 
 
 \section{Description of Work}
-
+This MBM will be conducted as a research assignment along with a 30 minutes presentation. The following topics are to be analyzed, evaluated and discussed.
+\begin{itemize}
+    \item A detailed analysis of the strengths and weaknesses of the Tangle's architecture and how it reaches its consensus. This also includes the problem of the coordinator and the path to full decentralization. It includes a discussion about how suitable the IOTA network is for a future project with Internet-of-Things (IoT) devices.
+    \item Analysis of possible attack scenarios including the double-spend attack, large weight attack and the parasite chain attack.
+    \item Case studies in the mobility and smart energy industries.
+    \item The current status, process and intentions of the Qubic project is to be analyzed which is IOTA's solution for oracle machines and smart contracts.
+\end{itemize}
 
 \section{Thesis Outline}
 
