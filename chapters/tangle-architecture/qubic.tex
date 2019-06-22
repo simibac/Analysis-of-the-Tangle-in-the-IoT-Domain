@@ -1,1 +1,35 @@
 \section{Qubic}\label{qubic}
+The Qubic protocol addresses the integration of smart contracts (SC), oracles and outsourced computation within the IOTA network. The following terminology helps to understand the aim of the protocol.
+\begin{description}
+    \item[Qubic (QBC)] The protocol receives its name from quorum-based (distributed) computation.
+    \item[quorum] A quorum is the minimum number of votes that a transaction/data must obtain, such that is is considered as valid. The introduction of quorum-based computation makes it more difficult for malicious nodes to falsify data as well as reduce noisy data from faulty sensors. 
+    \item[qubic] Besides the protocols name, a qubic is also referred to a packaged quorum-based computation that occurs according to the Qubic protocol. One can think of a qubic as a data/computation request or task on the tangle. 
+    \item[qubic owner] The qubic owner is the node that issues the request (qubic). For every qubic, a reward is defined. This reward is split among all nodes that enforce the quorum result. This promotes honest behavior, as a node is not rewarded when publishing a defective result.
+    \item[(deliberative) assembly] A group of oracles forms an assembly where all of its members will process the same set of qubics. Each oracle will post its results for every qubic on the Tangle. The assembly will decide on the true value of the requested data. The threshold of the acceptance rate is usually set to $2/3$.
+    \item[Abra] The IOTA foundation develops a functional programming language called Abra. It uses the trinary number system in order to save disk space and computational power.
+\end{description}
+
+The Qubic protocol is still in development and is not deployed on any testnet by date of writing this paper.
+
+\subsection{Oracles}\label{oracles}
+Oracles bring real-world data into the ledger. Difficulties that must be considered are the Sybil attack and the classroom attack, where oracles copy the result of other oracles without measuring the requested data.
+\begin{description}
+    \item[Sybil Attack] A single oracle could impersonate multiple oracles at the same time in order to receive a larger cut of the reward. Such a Sybil attack is most likely mitigated in the Qubic protocol by weighted voting. An oracle has a voting weight according to the resources it used to solve a crpytographic puzzle (PoW) or according to its stake in the network. These voting weights are set initially when a assembly is formed. However, it can be adjusted when new nodes join the assembly or when the majority of the assembly agrees on a new resource test phase. During this phase, the computational resources of each oracle are examined and the weights are updated accordingly.
+    \item[Classroom attack] Results must be published in a commit-reveal schema, such that oracles cannot copy the results from others without verifying the data. 
+\end{description}
+
+\subsection{Outsourced computing}
+Outsourced computing addresses the problem that not every IoT device is able to execute computationally complex tasks due to memory, computational power and energy availability limitations. As with oracle machines, outsourced computation is handled in a decentralized way, with the Qubic protocol ensuring that the results can be trusted to a high degree of certainty. The protocol allows anyone to request to run a computational task without permission. On the other hand, any node can become part of an assembly which will eventually be assigned to solve computational tasks.
+
+\subsection{Smart Contracts}
+Smart contracts facilitate, verify and enforce transactions on the underlying ledger technology without the need of a third party.
+
+\subsection{Qubic in Action}
+The following example illustrates how the three building blocks complete the Qubic protocol.
+
+\begin{enumerate}
+    \item The car insurance and the driver establish a smart contract that contains variable rates for different driving conditions. The cost depends on multiple factors. This data can be retrieved in a distributed manner by issuing qubics such as a temperature qubic, traffic jam qubic, etc.
+    \item Autonomous cars could act as a group of oracles (assembly) when deciding on traffic congestion. If the quorum is set to $2/3$ and $2/3$ of the cars in a specific area register a high degree of traffic the tangle registers this information.
+    \item Analyzing the data from the tangle might be computationally expensive. Thus, a new qubic is issued for analyzing the different factors from the tangle and is outsourced to a assembly that can compute this task efficiently.
+    \item When the result of the analyzing qubic is received, the smart contract automatically pays the necessary amount for the car insurance according to the driving conditions.
+\end{enumerate}

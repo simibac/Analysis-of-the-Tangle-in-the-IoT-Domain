@@ -278,6 +278,14 @@ INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chap
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/coordinator.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/qubic.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/qubic.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/ae/aer12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/ae/aebx12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/ae/aebx12.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/attack-scenarios/index.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/attack-scenarios/index.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/double-spend.png
