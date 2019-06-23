@@ -258,26 +258,6 @@ INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/imag
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/height-depth-score.pdf
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/height-depth-score.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/ae/aeti12.vf
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/tip-selection.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/tip-selection.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/simulation.png
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/simulation.png
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/simulation.png
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/lazy-tip.png
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/lazy-tip.png
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/lazy-tip.png
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/transaction-validation.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/transaction-validation.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence.pdf
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence.pdf
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence.pdf
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence-tangle.png
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence-tangle.png
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence-tangle.png
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/coordinator.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/coordinator.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/qubic.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/qubic.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/ae/aer12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/ae/aebx12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/ae/aebx12.vf
@@ -286,6 +266,30 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/tip-selection.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/tip-selection.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/simulation.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/simulation.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/simulation.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/lazy-tip.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/lazy-tip.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/lazy-tip.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/transaction-validation.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/transaction-validation.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence.pdf
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence.pdf
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence.pdf
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence-tangle.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence-tangle.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/confirmation-confidence-tangle.png
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/permanodes.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/permanodes.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/coordinator.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/coordinator.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/qubic.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/qubic.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/economic-clustering.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/economic-clustering.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/attack-scenarios/index.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/attack-scenarios/index.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/double-spend.png

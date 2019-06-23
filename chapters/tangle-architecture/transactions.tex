@@ -29,3 +29,22 @@ The next section describes the basic concepts of the tangle. For all figures, a 
 \end{description}
 
 These parameters will play an important role when discussing tip selection in Section \ref{tip-selection} and attack scenarios \ref{attacks}.
+
+\subsection{Diffenrent Types of Transactions}\label{different-types-of-transactions}
+There exist four types of transactions in the IOTA protocol.
+\begin{description}
+    \item[Output transaction] IOTA tokens are sent to another address.
+    \item[Input transaction with 0 value] These transactions facilitate a transfer to a new address in the sender's wallet.
+    \item[Input transaction with a negative value] These transactions completely spend the balance of that account.
+    \item[Meta transactions] These transactions have a value of 0 and make use of the \textit{signatureMessageFragment} to store data on the Tangle. 
+\end{description}
+
+IOTA represents data according to the trinary numeric system. In comparison to binary, a trinary system is more efficient in terms of computation and memory as it can represent data in three states rather than just two. Hence, a transaction is also tryte-encoded where each tryte consists of one of 27 characters.
+
+A transaction in the IOTA protocol consists of 2673 tryte-encoded characters which are equivalent to 1.59 kBytes. Every transaction object contains the same fields. The most interesting fields are the following two.
+\begin{description}
+    \item[Message (2187 trytes)] This field can be used for two purposes. In case of an input or output transaction, this field contains the signature. In case of a meta transaction, these trytes can be used for storing data on the tangle. If the data is larger than 2187 trytes, the data is split among multiple transactions and grouped together in a transaction bundle. The tangle treats a transaction bundle just like a transaction. It either accepts the bundle or rejects all transactions within the bundle. The tangle explorer cannot search for a specific message. Instead, tags can be used to localize desired messages.
+    \item[Tag (27 trytes)] This field is used to search for a transaction with a specific tag value.
+\end{description}
+
+Due to the design choice of quantum-resistant signature scheme, the protocol does not allow spending multiple times from the same address. Thus, a simple transaction from Alice's wallet to Bob results in the best case in a transaction bundle of three transactions. One for sending IOTA tokens to Bob, the second one for spending all the remaining IOTAs in Alice's wallet and a third one that is a meta transaction and holds the second part of the signature. Thus, the actual size of a basic Alice-to-Bob transaction results in 8019 trytes (4.77 kBytes).
