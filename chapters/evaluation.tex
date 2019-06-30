@@ -1,6 +1,6 @@
 \chapter{Evaluation}
 
-As this paper is about the analysis and the evaluation of the potential of the tangle's architecture, this section focuses on the advantages of the protocol as well as the negative points.
+As this paper is about the analysis and the evaluation of the potential of the tangle's architecture, this section focuses on the advantages of the protocol as well as the negative aspects.
 
 \section{Coordinator}
 As described in Section \ref{coordinator}, the current implementation of the tangle uses a special centralized node that marks milestones in order to protect the network against several attacks. However, it creates a single point of failure which is not desired in a P2P network and defeats the purpose of a P2P currency. The IOTA foundation is working on a coordinator-free network. However, as long as the network runs in the current form, the entire network is susceptible to attacks on the coordinator which can result in a halt of the entire system.
@@ -12,20 +12,20 @@ Most of the time, nodes in the network only forward transactions and update the 
 
 This is a big difference to PoW blockchains where a miner tries to solve the cryptographic puzzle before every other miner in the network. In order to have the same level of security as Bitcoin, the IOTA network has to exhibit a similarly high network hashing power.
 
-However, one must note that the hashing power is much more distributed compared to the Bitcoin network and make such an attack less likely, whereas in Bitcoin a 51% attack would be possible if the three largest mining pools would cooperate \cite{mining-pools}. 
+However, one must note that the hashing power is much more distributed compared to the Bitcoin network and make such an attack less likely, whereas in Bitcoin a 51\% attack would be possible if the three largest mining pools would cooperate \cite{mining-pools}. 
 
 Furthermore, as IOTA claims to become the network of IoT devices, PoW does not seem to be a sustainable solution to the anti-spam mechanism. Lots of IoT devices run on limited power and computation capacity. Outsourcing the PoW could be a solution but then there is an overhead in maintaining additional hardware that solely computes PoW in order to facilitate the transactions of IoT devices.
 
 
-A solution based on the acquired stake in the network to prevent fraudulent behavior would make more sense and might be included in the next big system update when the coordinator-less protocol will be developed.
+A solution based on the acquired stake in the network to prevent fraudulent behavior would make more sense and might be included in the next big system update when the coordinator-less protocol will be proposed.
 
 \section{Permanodes}
 As explained in Section \ref{different-types-of-transactions}, a transaction consist of 2673 trytes. However, due to the signature schema in the protocol, a transaction from Alice to Bob is in the best case a bundle of three transactions. This results in a minimum of 4.77 kBytes, whereas a Bitcoin transaction is in average 0.6 kBytes \cite{transaction-size} and a basic Alice-to-Bob Ether transaction is about 0.1 kBytes \cite{transaction-size-eth}. Thus, storing the history of the tangle is more resource intensive.
 
-The protocol supports local pruning called snapshots. This allows a node to discard all transaction and only store the balances as well as the transactions from within a time period. This period is set by default to 30 days \cite{local-snapshots}. When making local snapshots the field for the signatureMessageFragment and the tag is no longer stored. Thus, whenever a node wants to access data transactions from before the last snapshot, it relies on permanodes.
+The protocol supports local pruning called snapshots. This allows a node to discard all transaction and only store the balances as well as the transactions from within a time period. This period is set by default to 30 days \cite{local-snapshots}. When creating a local snapshot, the field for the \textit{signatureMessageFragment} and the \textit{tag} is no longer stored. Thus, whenever a node wants to access data transactions from before the last snapshot, it relies on permanodes.
 When receiving data from permanodes, there is no other way to check if the data was not manipulated than asking several permanodes for the same data and compare their response. 
 
-Furthermore, the protocol allows storing data on the tangle as described in Section \ref{different-types-of-transactions}. Storing data on the tangle is relatively cheap as one only pays for the PoW for every transaction. Retrieving data from a permanode on the other hand will most likely not be free since maintaining the entire history of the tangle requires a datacenter. In Ethereum it is the other way around. One has to pay for storing data on the blockchain but reading from the blockchain is free.
+Storing data on the tangle is relatively cheap as one only pays for the PoW for every transaction. Retrieving data from a permanode on the other hand will most likely not be free since maintaining the entire history of the tangle requires a datacenter. In Ethereum it is the other way around. One has to pay for storing data on the blockchain but reading from the blockchain is free.
 
 \section{Economic Clustering}
 IOTA's approach to solving the storage problem is economic clustering as described in Section \ref{economic-clustering}. This approach essentially deploys a new tangle for every cluster. The security benfit of having many nodes confirming transaction does not exceed the borders of a cluster. A new cluster can be compared to a hard fork in Bitcoin. When a network splits and both networks coexist, the hash power is split among both chains and thus, they become less secure than the original chain. The same applies to economic clustering. 

@@ -1,5 +1,5 @@
 \section{Coordinator}\label{coordinator}
-In the early stages of the Tanlge, the network is susceptible to several attacks. Some of these attacks are discussed in Chapter \ref{attacks}. In summary, a user that controls a majority of the hashing power can double-spend coins. Unlike in Bitcoin where a miner competes with all other miners, in IOTA an attacker only competes with nodes that actively issue transactions. Thus, in times where not many transactions are issued, an attack becomes more feasible to execute.
+In the early stages of the Tanlge, the network is susceptible to several attacks. Some of these attacks are discussed in Chapter \ref{attacks}. In summary, a user that controls a majority of the hashing power can double-spend coins. Unlike in Bitcoin where a miner competes with all other miners, in IOTA an attacker only competes with nodes that actively issue transactions! Thus, in times where not many transactions are issued, an attack becomes more feasible to execute.
 
 In order to protect itself against such attacks, the IOTA foundation operates a special node called the Coordinator (Coo). This node has a checkpoint function. By issuing periodically zero-value transactions, the Coo creates milestones. Every transaction that is directly or indirectly confirmed by this milestone is considered as valid. The Coo is a central entity in the tangle and manifests a single point of failure. The Coo is not able to invalidate transactions from previous milestones. However, the node has several privileges compared to a regular node.
 
@@ -9,11 +9,4 @@ In order to protect itself against such attacks, the IOTA foundation operates a 
     \item If Coo is attacked and no longer works, the entire network halts.
 \end{enumerate}
 
-The coordinator-free Tangle is developed by a dedicated research team of the IOTA foundation. There are three concepts proposed for a more decentralized network.
-\begin{enumerate}
-    \item \textbf{Node accountability} is a reputation system built into the protocol, similar to object reputation systems used in p2p file-sharing such as the Gnutella network \cite{object-reputation-system}. Such a protocol allows making judgments about the authenticity of incoming transactions. The reputation of a node is lowered whenever a node attempts to make a double-spend transaction or issues many re-attachments. Re-attachments are used in IOTA when a transaction is left behind on a branch that is likely to be abandoned.
-    \item As mentioned in Section \ref{tip-selection}, the \textbf{tip selection algorithm} is one of the main difficulties in the network. Without the Coo, there are no milestones from which the MCMC random walk algorithm derives. Thus, a new heuristic algorithm is developed using backtracking from a recent tip until it reaches a transaction with a high cumulative weight.    
-    \item The \textbf{Stars Concept} is an idea that works with well-known, public and trusted entities such as governments and corporations. These entities issue reference transactions which are similar to the milestones issued by the Coo.
-\end{enumerate}
-
-These approaches are implemented and tested on the so-called zero-value testnet (znet).
+As such a central element is not desired in a decentralized system, the IOTA foundations investigates in possible solutions to this problem. These solution statements are explained in Section \ref{coo-less-tangle}.

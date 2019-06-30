@@ -284,10 +284,6 @@ INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chap
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/permanodes.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/coordinator.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/coordinator.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/qubic.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/qubic.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/economic-clustering.tex
-INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/tangle-architecture/economic-clustering.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/attack-scenarios/index.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/attack-scenarios/index.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/double-spend.png
@@ -299,6 +295,14 @@ INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/imag
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/parasite-chain.pdf
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/parasite-chain.pdf
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/images/parasite-chain.pdf
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/research-topics/index.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/research-topics/index.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/research-topics/coo-less-tangle.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/research-topics/coo-less-tangle.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/research-topics/qubic.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/research-topics/qubic.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/research-topics/economic-clustering.tex
+INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/research-topics/economic-clustering.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/evaluation.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/evaluation.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/summary.tex
@@ -322,6 +326,10 @@ INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thes
 OUTPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.lot
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/appendix.tex
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/chapters/appendix.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/ae/aer8.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/ae/aer8.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmu10.tfm
 INPUT /Users/simonbachmann/Dropbox/UZH/9. Semester/MBM/Thesis-pdlatex-Serif/thesis.aux
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc
