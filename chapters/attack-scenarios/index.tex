@@ -23,7 +23,7 @@ The large weight attack has the same intent as the double spend but actively tri
 \begin{enumerate}
     \item A transaction is created and broadcasted that is intended to revert.
     \item The malicious user waits until the receiver believes the transaction has a high enough confirmation rate. The merchant ships the product/service.
-    \item The attacker uses its computational power and issues a double-spending transaction with a large weight followed by many more transactions. This transaction does not approve the first transaction and thus they compete with each other for finality.
+    \item The attacker uses its computational power and issues a double-spending transaction with a large weight followed by many more transactions. This transaction does not approve the first transaction and thus, they compete with each other for finality.
     \item The bad actor hopes that the dishonest subtangle gains more cumulative weight than the honest subtangle.
 \end{enumerate}
 
@@ -34,16 +34,16 @@ The large weight attack has the same intent as the double spend but actively tri
     \label{fig:large-weight-attack}
 \end{figure}
 
-This attack can only be carried out if the attacker has more computing power than all the nodes that actively issue new transactions. In a well-established network with many nodes issuing transactions, this is less of an issue. In the early stages, however, there are not enough transactions passing through the network in order to be safe from such an attack. Due to this reason, the IOTA foundation has put a coordinator in place which is discussed in more detail in Section ?.
+This attack can only be carried out if the attacker has more computing power than all the nodes that actively issue new transactions. In a well-established network with many nodes issuing transactions, this is less of an issue. In the early stages, however, there are not enough transactions passing through the network in order to be safe from such an attack. Due to this reason, the IOTA foundation has put a coordinator in place which is discussed in more detail in Section \ref{coordinator}.
 
 \section{Parasite Chain Attack}
 The parasite chain attack also tries to convince the network to abandon a previously confirmed transaction by biasing the tip selection algorithm. The attack works as follows:
 \begin{enumerate}
-    \item The attacker creates a transaction branching off from the main tangle (MT). He does not broadcast this transaction. This transaction is the red dot furthest to left in Figure \ref{fig:parasite-chain}.
+    \item The attacker creates a transaction branching off from the main tangle (MT). He does not broadcast this transaction yet. This transaction is the red dot furthest to left in Figure \ref{fig:parasite-chain}.
     \item Instead, he keeps adding new transactions to this local chain called parasite chain (PC).
     \item He makes sure, that he references the MT within the PC.
     \item The malicious user creates a transaction on the MT which he hopes to get abandoned by the network when he publishes the parasite chain. This transaction is the red dot furthest to right.
-    \item The user waits until the transaction on the MT is considered as validated. During this time he keeps building on the PC but can only reference transactions before the double-spend transaction on the MT.
+    \item The user waits until the transaction on the MT is considered as confirmed. During this time he keeps building on the PC but can only reference transactions before the double-spend transaction on the MT.
     \item At this point, the bad actor broadcasts the parasite chain.
     \item Furthermore, he might try to artificially inflate the number of tips on the PC.
 \end{enumerate}

@@ -4,7 +4,7 @@ In the early stages of the Tanlge, the network is susceptible to several attacks
 In order to protect itself against such attacks, the IOTA foundation operates a special node called the Coordinator (Coo). This node has a checkpoint function. By issuing periodically zero-value transactions, the Coo creates milestones. Every transaction that is directly or indirectly confirmed by this milestone is considered as valid. The Coo is a central entity in the tangle and manifests a single point of failure. The Coo is not able to invalidate transactions from previous milestones. However, the node has several privileges compared to a regular node.
 
 \begin{enumerate}
-    \item The foundation can prioritize transactions.
+    \item The Coo can prioritize transactions.
     \item The Coo has the ability to censor transactions by continuously not approving certain transactions.
     \item If Coo is attacked and no longer works, the entire network halts.
 \end{enumerate}

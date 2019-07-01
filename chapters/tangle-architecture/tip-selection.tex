@@ -17,7 +17,7 @@ In order to discuss the tip selection algorithm, a simulation of the DAG archite
 \end{figure}
 
 
-There is a possibility that one or both of the validated transactions might no longer be a tip at the time of broadcasting the new transaction. Thus, the tangle must also accept transactions that approve already verified transactions. However, the tip selection algorithm must avoid these \textit{lazy tips} which point to older transactions. Confirming old transaction is unwanted since it increases the branching factor of the graph and thus, it increases the number of tips. Furthermore, \textit{lazy} nodes do not help the network to grow since no unapproved transactions are confirmed. In Figure \ref{fig:lazy-tip}, transaction 14 is added to the network by a lazy node. 
+There is a possibility that one or both of the validated transactions might no longer be a tip at the time of broadcasting the new transaction. The reason for this might be the slow computation of the required PoW or bandwidth congestion. Thus, the tangle must also accept transactions that approve already verified transactions. However, the tip selection algorithm must avoid these \textit{lazy tips} which point to older transactions. Confirming old transaction is unwanted since it increases the branching factor of the graph and thus, it increases the number of tips. Furthermore, \textit{lazy} nodes do not help the network to grow since no unapproved transactions are confirmed. In Figure \ref{fig:lazy-tip}, transaction 14 is added to the network by a lazy node. 
 
 
 \begin{figure}[H]
