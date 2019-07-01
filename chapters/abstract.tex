@@ -3,8 +3,13 @@
 
 \selectlanguage{german}
 
-Das ist die Kurzfassung...
+In der Distributed-Ledger-Technologie verwenden die meisten Implementierungen eine einfach verkn\"upfte Liste als Kerndatenstruktur. Daher k\"onnen Transaktionen nicht parallel verarbeitet werden. Das Erh\"ohen der Blockgr\"osse oder das Verk\"urzen des Blockintervalls ist keine nachhaltige L\"osung. Dar\"uber hinaus sind die Knoten im Netzwerk h\"aufig zwischen Knoten, die Transaktionen ausstellen, und solchen, die Transaktionen validieren, getrennt. Die Kryptow\"ahrung IOTA versucht, diese Probleme mit einer gerichteten azyklischen Architektur zu l\"osen. Das Konzept von validierenden Knoten und Knoten, welche die Transaktionen erstellen, gibt es in IOTA nicht. Stattdessen kann eine neue Transaktion erst ver\"offentlicht werden, nachdem andere Transaktionen validiert wurden.
 
+Dieser Bericht untersucht die Architektur von IOTA, ihre St\"arken und Schw\"achen, m\"ogliche Angriffsvektoren und ihre Verwendbarkeit f\"ur ein zuk\"unftiges IoT- und DLT-Projekt.
 
+ 
 
 \selectlanguage{english}
+In distributed ledger technology, most implementations use a singly-linked list as the core data structure. Thus, transactions cannot be processed in parallel. Increasing the blocksize or shorten the block interval is not a sustainable solution. Furthermore, the nodes in the network are often separated between nodes that issue transactions and those that validate transactions. The cryptocurrency IOTA tries to address these issues with a directed acyclic architecture. The concept of issuing nodes and validator does not exist in IOTA instead a new transaction can only be issued after other transactions have been validated.
+
+This report investigates the architecture of IOTA, its strengths and weaknesses, possible attack vectors and its usability for a future IoT- and DLT-project.
