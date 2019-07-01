@@ -3,7 +3,7 @@
 This section covers some of the possible attack scenarios and how the Tangle can still maintain consensus among honest users.
 
 \section{Double Spend}
-A double spend situation occurs when a user tries to exceed his account balance by issuing two or more conflicting transactions. Figure \ref{fig:double-spend} illustrates such a scenario. A box represents a transaction. The dashed box inside represents the current state in the graph but is not part of an actual transaction. In this simulation, Alice owns only 15 IOTA but issues two transactions with 10 IOTA each. Bob cannot approve both of Alice's transactions as they result in a negative account balance.
+A double spend situation occurs when a user tries to exceed his account balance by issuing two or more conflicting transactions. Figure \ref{fig:double-spend} illustrates such a scenario. A box represents a transaction. The dashed box inside represents the current state in the graph but is not part of an actual transaction. In this simulation, Alice owns 15 IOTA but issues two outgoing transactions with 10 IOTA each. Bob cannot approve both of Alice's transactions as they result in a negative account balance.
 
 \begin{figure}[H]
     \centering
@@ -37,7 +37,7 @@ The large weight attack has the same intent as the double spend but actively tri
 This attack can only be carried out if the attacker has more computing power than all the nodes that actively issue new transactions. In a well-established network with many nodes issuing transactions, this is less of an issue. In the early stages, however, there are not enough transactions passing through the network in order to be safe from such an attack. Due to this reason, the IOTA foundation has put a coordinator in place which is discussed in more detail in Section ?.
 
 \section{Parasite Chain Attack}
-The parasite chain attack also tries to convince the network to abandon a previously confirmed transaction by biasing the tip selection algorithm.The attack works as follows:
+The parasite chain attack also tries to convince the network to abandon a previously confirmed transaction by biasing the tip selection algorithm. The attack works as follows:
 \begin{enumerate}
     \item The attacker creates a transaction branching off from the main tangle (MT). He does not broadcast this transaction. This transaction is the red dot furthest to left in Figure \ref{fig:parasite-chain}.
     \item Instead, he keeps adding new transactions to this local chain called parasite chain (PC).

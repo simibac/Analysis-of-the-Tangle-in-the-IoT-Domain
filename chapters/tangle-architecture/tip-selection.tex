@@ -31,3 +31,12 @@ For finding a tip, a node must walk from the genesis until it reaches an unconfi
 This is achieved by favoring transactions that have a higher cumulative weight. The bias factor is defined with the parameter $\alpha$. Setting $\alpha$ to a high value results in many unconfirmed transactions since most approvers choose the same path to the tip. These unconfirmed transactions are left behind and will never be accepted. Thus, determining an ideal value for $\alpha$ is crucial for the usability of the network and depends on the transaction arrival rate, the PoW delay of different devices in the network, network delay and the number of tips. 
 
 The method of setting a rule on how to find a path towards a tip is called a Markov Chain Monte Carlo technique (MCMC) \cite{mcmc}. In a Markov chain, each step enforces a rule which is defined in advanced and does not depend on the previous step. In the example of the Tangle, each step is a node in the graph and the rules are the probabilities of the available paths depending on the cumulative weights.
+
+Figure \ref{fig:mcmc} illustrates the simulation of a random walk algorithm. It is assumed that the network delay is 1 time unit. Thus, the node that issues transaction 9 does not know about transaction 7 and 8. As transaciton 6 confirms transaction 1, transaction 1 has a cumulative weight of 2. Therefore, it is more likely to choose the path with a higher cumulative weight.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{images/mcmc.png}
+    \caption{Markov Chain Monte Carlo Technique}
+    \label{fig:mcmc}
+\end{figure}

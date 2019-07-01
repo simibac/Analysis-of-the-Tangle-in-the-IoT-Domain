@@ -30,14 +30,18 @@ The next section describes the basic concepts of the tangle. For all figures, a 
 
 These parameters will play an important role when discussing tip selection in Section \ref{tip-selection} and attack scenarios \ref{attacks}.
 
-\subsection{Diffenrent Types of Transactions}\label{different-types-of-transactions}
-There exist four types of transactions in the IOTA protocol.
+\subsection{Different Types of Transactions}\label{different-types-of-transactions}
+
+A transaction that facilitates a transfer of IOTAs or stores data on the tangle is a bundle of transactions. Such a bundle is a combination of the following types of transactions:
 \begin{description}
-    \item[Output transaction] IOTA tokens are sent to another address.
-    \item[Input transaction with 0 value] These transactions facilitate a transfer to a new address in the sender's wallet.
+    \item[Output transaction] IOTA tokens are sent to another address. The value is always greater than 0 and the address is different than the address issuing the transaction bundle.
+    \item[Input transaction with a positive value] These transactions facilitate a transfer to a new address in the sender's wallet.
     \item[Input transaction with a negative value] These transactions completely spend the balance of that account.
     \item[Meta transactions] These transactions have a value of 0 and make use of the \textit{signatureMessageFragment} to store data on the Tangle. 
 \end{description}
+
+Each bundle is considered as atomic. Either all or none of the transactions are accepted. Each transaction must provide its own PoW. 
+
 
 IOTA represents data according to the trinary numeric system. In comparison to binary, a trinary system is more efficient in terms of computation and memory as it can represent data in three states rather than just two. Hence, a transaction is also tryte-encoded where each tryte consists of one of 27 characters.
 
